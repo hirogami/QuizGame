@@ -280,3 +280,7 @@ h2,h3 {
 page-break-after:avoid;
 }
 }
+
+#iap {
+    float: right; vertical-align: middle; margin-top: 100px; margin-right: 150px;
+}

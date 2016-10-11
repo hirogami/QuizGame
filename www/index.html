@@ -106,13 +106,16 @@
                 </div>
             </div>
             <!-- ROTATE INSTRUCTION END-->
-            
+
+            <div id="iap">
+                <button onclick="IAP.buy(PRODUCT_ID_ADFREE)">
+                    <img src="css/remove_ads.png" width="48" height="48"/>
+                </button>
+                <br/><br/>
+            </div>
+
             <!-- CANVAS START-->
             <div id="canvasHolder">
-                <div id="iap">
-                    <button style="float: right;" onclick="IAP.buy(PRODUCT_ID_ADFREE)">Remove Ads</button>
-                    <br/><br/>
-                </div>
                 <canvas id="gameCanvas" width="1024" height="768"></canvas>
             </div>
             <!-- CANVAS END-->
