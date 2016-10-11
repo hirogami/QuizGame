@@ -48,8 +48,8 @@ function buildGameCanvas(){
 	logo = new createjs.Bitmap(loader.getResult('logo'));
 	
 	startButton = new createjs.Text();
-	startButton.font = "50px bariol_regularregular";
-	startButton.color = "#ffffff";
+	startButton.font = "50px csnpwdt";
+	startButton.color = "#FF0009";
 	startButton.text = loadingText;
 	startButton.textAlign = "center";
 	startButton.textBaseline='alphabetic';
@@ -70,8 +70,8 @@ function buildGameCanvas(){
 	createHitarea(arrowRight);
 
 	categoryTxt = new createjs.Text();
-	categoryTxt.font = "70px bariol_regularregular";
-	categoryTxt.color = "#ffffff";
+	categoryTxt.font = "70px csnpwdt";
+	categoryTxt.color = "#FF0009";
 	categoryTxt.text = '';
 	categoryTxt.textAlign = "center";
 	categoryTxt.textBaseline='alphabetic';
@@ -79,8 +79,8 @@ function buildGameCanvas(){
 	categoryTxt.y = canvasH/100*30;
 
 	categoryTitleTxt = new createjs.Text();
-	categoryTitleTxt.font = "140px bariol_regularregular";
-	categoryTitleTxt.color = "#ffffff";
+	categoryTitleTxt.font = "140px csnpwdt";
+	categoryTitleTxt.color = "#FF0009";
 	categoryTitleTxt.text = 'RIDDLE';
 	categoryTitleTxt.textAlign = "center";
 	categoryTitleTxt.textBaseline='alphabetic';
@@ -88,8 +88,8 @@ function buildGameCanvas(){
 	categoryTitleTxt.y = canvasH/100 * 58;
 
 	categoryContinueTxt = new createjs.Text();
-	categoryContinueTxt.font = "50px bariol_regularregular";
-	categoryContinueTxt.color = "#ffffff";
+	categoryContinueTxt.font = "50px csnpwdt";
+	categoryContinueTxt.color = "#FF0009";
 	categoryContinueTxt.text = categoryContinueText;
 	categoryContinueTxt.textAlign = "center";
 	categoryContinueTxt.textBaseline='alphabetic';
@@ -132,7 +132,7 @@ function buildGameCanvas(){
 	brainCorrectAnimate.y = canvasH/2;
 
 	questionTxt = new createjs.Text();
-	questionTxt.font = "70px bariol_regularregular";
+	questionTxt.font = "70px csnpwdt";
 	questionTxt.color = questionTextColour;
 	questionTxt.textAlign = 'left';
 	questionTxt.textBaseline='alphabetic';
@@ -140,7 +140,7 @@ function buildGameCanvas(){
 	questionTxt.y = canvasH/100 * 10;
 
 	scoreTxt = new createjs.Text();
-	scoreTxt.font = "70px bariol_regularregular";
+	scoreTxt.font = "70px csnpwdt";
 	scoreTxt.color = questionTextColour;
 	scoreTxt.textAlign = 'right';
 	scoreTxt.textBaseline='alphabetic';
@@ -161,8 +161,8 @@ function buildGameCanvas(){
 	brainResult.y = canvasH/100 * 25;
 
 	resultDescTxt = new createjs.Text();
-	resultDescTxt.font = "60px bariol_regularregular";
-	resultDescTxt.color = "#ffffff";
+	resultDescTxt.font = "60px csnpwdt";
+	resultDescTxt.color = "#FF0009";
 	resultDescTxt.text = resultTitleText;
 	resultDescTxt.textAlign = "center";
 	resultDescTxt.textBaseline='alphabetic';
@@ -170,8 +170,8 @@ function buildGameCanvas(){
 	resultDescTxt.y = canvasH/100*44;
 
 	resultScoreTxt = new createjs.Text();
-	resultScoreTxt.font = "110px bariol_regularregular";
-	resultScoreTxt.color = "#ffffff";
+	resultScoreTxt.font = "110px csnpwdt";
+	resultScoreTxt.color = "#FF0009";
 	resultScoreTxt.text = 0;
 	resultScoreTxt.textAlign = "center";
 	resultScoreTxt.textBaseline='alphabetic';
@@ -179,8 +179,8 @@ function buildGameCanvas(){
 	resultScoreTxt.y = canvasH/100*57;
 
 	resultShareTxt = new createjs.Text();
-	resultShareTxt.font = "30px bariol_regularregular";
-	resultShareTxt.color = "#ffffff";
+	resultShareTxt.font = "30px csnpwdt";
+	resultShareTxt.color = "#FF0009";
 	resultShareTxt.text = shareText;
 	resultShareTxt.textAlign = "center";
 	resultShareTxt.textBaseline='alphabetic';
@@ -202,8 +202,8 @@ function buildGameCanvas(){
 	iconFacebook.y = iconTwitter.y = iconGoogle.y = canvasH/100 * 83;
 
 	replayButton = new createjs.Text();
-	replayButton.font = "50px bariol_regularregular";
-	replayButton.color = "#ffffff";
+	replayButton.font = "50px csnpwdt";
+	replayButton.color = "#FF0009";
 	replayButton.text = replayButtonText;
 	replayButton.textAlign = "center";
 	replayButton.textBaseline='alphabetic';

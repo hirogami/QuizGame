@@ -15,9 +15,9 @@ var categoryAllOption = true; //add ALL category select option
 var categoryContinueText = 'SELECT CATEGORY'; //text for category page button
 var categoryAllText = 'All'; //text for all category select option
 
-var backgroundColour = '#000000'; //background colour
+var backgroundColour = '#171313'; //background colour
 var questionTextColour = '#FF0009'; //question text colour
-var answerTextColour = '#000000'; //answer text colour
+var answerTextColour = '#FF0009'; //answer text colour
 var questionTextSize = 50; //question text size
 var answerTextSize = 50; //answer text size
 var textLineHeight = 5; //text line height
@@ -34,9 +34,9 @@ var answerAnimationEnable = true; //enable answer animation
 var answerButtonBgEnable = true; //toggle answer button background
 var answerButtonBgRoundNumber = 20; //answer button background round corner number
 var answerButtonBgShadowNumber = 10; //answer button background shadow
-var answerButtonBgColour = '#FFCC46'; //answer button background colour
+var answerButtonBgColour = '#373434'; //answer button background colour
 var answerButtonBgShadowColour = '#FFA73A'; //answer button background shadow colour
-var answeredButtonBgColour = '#E7577A'; //answered button background colour
+var answeredButtonBgColour = '#F7F00F'; //answered button background colour
 var answeredButtonBgShadowColour = '#D03E61'; //answered button background shadow colour
 var answerButtonPositionOffsetY = -15; //answer button background offsey y
 
@@ -402,7 +402,7 @@ function buildQuestion(){
 		var fontSize = question_arr[sequenceCountNum].fontSize;
 		fontSize = fontSize == undefined ? questionTextSize : fontSize;
 		$.question['q'+questionCountNum] = new createjs.Text();
-		$.question['q'+questionCountNum].font = fontSize+"px bariol_regularregular";
+		$.question['q'+questionCountNum].font = fontSize+"px csnpwdt";
 		$.question['q'+questionCountNum].lineHeight = Number(fontSize)+Number(textLineHeight);
 		$.question['q'+questionCountNum].color = questionTextColour;
 		$.question['q'+questionCountNum].textAlign = questionTextAlign;
@@ -794,7 +794,7 @@ function buildAnswers(){
 			fontSize = fontSize == undefined ? questionTextSize : fontSize;
 		
 			$.question['answer'+n] = new createjs.Text();
-			$.question['answer'+n].font = fontSize+"px bariol_regularregular";
+			$.question['answer'+n].font = fontSize+"px csnpwdt";
 			$.question['answer'+n].lineHeight = Number(fontSize)+Number(textLineHeight);
 			$.question['answer'+n].color = answerTextColour;
 			$.question['answer'+n].textAlign = questionTextAlign;
