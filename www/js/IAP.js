@@ -11,9 +11,12 @@ IAP = {
 };
 
 IAP.load = function () {
-  if(localStorage.has(PRODUCT_ID_ADFREE)){
+  alert("Hi")
+  if(localStorage.getItem(PRODUCT_ID_ADFREE) !== null){
+    alert("How are you?")
     IAP.adFree = localStorage.getItem(PRODUCT_ID_ADFREE);
   }
+  alert("I am fine.")
 
   // Check availability of the storekit plugin
   if (!window.storekit) {
