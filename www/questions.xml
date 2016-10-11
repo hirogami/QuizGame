@@ -133,7 +133,8 @@
 
   <item>
     <category>Set 2</category>
-    <question type='text'><![CDATA[When do Mexicans celebrate the "Day of the Dead"?]]>
+    <question type='text'><![CDATA[When do Mexicans celebrate the
+    "Day of the Dead"?]]>
     </question>
     <answers answerLayout='4type1' correctAnswer='1'>
       <answer><![CDATA[November 1st]]></answer>
@@ -158,8 +159,9 @@
 
   <item>
     <category>Set 2</category>
-    <question type='text'><![CDATA[What is the significance of
-    being the first person to bite an apple on a string?]]>
+    <question type='text'><![CDATA[What is the significance
+    of being the first person to bite
+    an apple on a string?]]>
     </question>
     <answers answerLayout='4type1' correctAnswer='4'>
       <answer><![CDATA[Kiss the prettiest girl]]></answer>
@@ -198,7 +200,8 @@
 
     <item>
         <category>Set 2</category>
-        <question type='text'><![CDATA[Which country eats Brambrack on Halloween?]]>
+        <question type='text'><![CDATA[Which country eats Brambrack
+        on Halloween?]]>
         </question>
         <answers answerLayout='4type3' correctAnswer='1'>
             <answer><![CDATA[Ireland]]></answer>
@@ -210,7 +213,8 @@
 
   <item>
     <category>Set 2</category>
-    <question type='text'><![CDATA[ Which country locks up their cats on Halloween?]]>
+    <question type='text'><![CDATA[ Which country locks up
+    their cats on Halloween?]]>
     </question>
     <answers answerLayout='4type3' correctAnswer='3'>
       <answer><![CDATA[Laos]]></answer>
@@ -236,10 +240,11 @@
 	<item>
 		<category>Set 2</category>
 		<question type='text'><![CDATA[What item was often baked into Halloween
-		 Barmbrack & when found would indicate that the
-		finder would have good fortune in the coming year?]]>
+		 Barmbrack & when found would indicate that
+		 the finder would have good fortune
+		 in the coming year?]]>
 		</question>
-		<answers answerLayout='4type1' correctAnswer='2'>
+		<answers answerLayout='4type3' correctAnswer='2'>
 			<answer><![CDATA[A button]]></answer>
 			<answer><![CDATA[A coin]]></answer>
 			<answer><![CDATA[A bead]]></answer>
@@ -276,8 +281,9 @@
 
 	<item>
 		<category>Set 3</category>
-		<question type='text'><![CDATA[It is a tradition to hide all the knives in the house,
-		                       on Halloween, in which country?]]>
+		<question type='text'><![CDATA[It is a tradition to hide all the knives
+		in the house,on Halloween,
+		in which country?]]>
 		</question>
 		<answers answerLayout='4type3' correctAnswer='2'>
 			<answer><![CDATA[France]]></answer>
@@ -302,7 +308,8 @@
 	<item>
 		<category>Set 3</category>
 		<question type='text'><![CDATA[Which country celebrates Halloween
-		by leaving water,bread and a light on the table?]]>
+		by leaving water,bread and a light
+		 on the table?]]>
 		</question>
 		<answers answerLayout='4type3' correctAnswer='3'>
 			<answer><![CDATA[New Zealand]]></answer>
@@ -435,7 +442,8 @@
 
     <item>
         <category>Set 4</category>
-        <question type='text'><![CDATA[What kind of crop can protect you from a werewolf?]]></question>
+        <question type='text'><![CDATA[What kind of crop
+        can protect you from a werewolf?]]></question>
         <answers answerLayout='4type3' correctAnswer='1'>
             <answer><![CDATA[Rye]]></answer>
             <answer><![CDATA[Oats]]></answer>
