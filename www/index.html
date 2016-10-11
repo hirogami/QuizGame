@@ -45,9 +45,9 @@
             }
 
             function bannerAd() {
-//                if (IAP.adFree) {
-//                    return;
-//                }
+                if (IAP.adFree) {
+                    return;
+                }
                 AdMob.createBanner({
                     adId : admobid.banner,
                     position : AdMob.AD_POSITION.TOP_CENTER,
@@ -58,9 +58,9 @@
             }
 
             function interstitialAd() {
-//                if (IAP.adFree) {
-//                    return;
-//                }
+                if (IAP.adFree) {
+                    return;
+                }
 
                 AdMob.prepareInterstitial({
                     adId: admobid.interstitial,
@@ -70,13 +70,13 @@
             }
 
             function initApp() {
-//                IAP.load();
+                IAP.load();
 
-//                if (IAP.adFree) {
-//                    alert("I am adfree.")
-//                    document.getElementById("#iap").style.display = 'block';
-//                    return;
-//                }
+                if (IAP.adFree) {
+                    alert("I am adfree.")
+                    document.getElementById("#iap").style.display = 'block';
+                    return;
+                }
 
                 if (AdMob) {
                     bannerAd();
@@ -110,10 +110,10 @@
             
             <!-- CANVAS START-->
             <div id="canvasHolder">
-                <!--<div class="#iap">-->
-                    <!--<button style="float: right;" onclick="IAP.buy(PRODUCT_ID_ADFREE)">Remove Ads</button>-->
-                    <!--<br/><br/>-->
-                <!--</div>-->
+                <div class="#iap">
+                    <button style="float: right;" onclick="IAP.buy(PRODUCT_ID_ADFREE)">Remove Ads</button>
+                    <br/><br/>
+                </div>
                 <canvas id="gameCanvas" width="1024" height="768"></canvas>
             </div>
             <!-- CANVAS END-->
@@ -136,6 +136,6 @@
         <script src="js/main.js"></script>
         <script src="js/loader.js"></script>
         <script src="js/init.js"></script>
-        <!--<script src="js/IAP.js"></script>-->
+        <script src="js/IAP.js"></script>
     </body>
 </html>
