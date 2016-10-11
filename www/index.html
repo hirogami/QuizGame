@@ -73,8 +73,7 @@
                 IAP.load();
 
                 if (IAP.adFree) {
-                    alert("I am adfree.")
-                    document.getElementById("#iap").style.display = 'block';
+                    document.getElementById("iap").style.display = 'block';
                     return;
                 }
 
@@ -110,7 +109,7 @@
             
             <!-- CANVAS START-->
             <div id="canvasHolder">
-                <div class="#iap">
+                <div id="iap">
                     <button style="float: right;" onclick="IAP.buy(PRODUCT_ID_ADFREE)">Remove Ads</button>
                     <br/><br/>
                 </div>
