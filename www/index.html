@@ -45,9 +45,9 @@
             }
 
             function bannerAd() {
-                if (IAP.adFree) {
-                    return;
-                }
+//                if (IAP.adFree) {
+//                    return;
+//                }
                 AdMob.createBanner({
                     adId : admobid.banner,
                     position : AdMob.AD_POSITION.TOP_CENTER,
@@ -58,9 +58,9 @@
             }
 
             function interstitialAd() {
-                if (IAP.adFree) {
-                    return;
-                }
+//                if (IAP.adFree) {
+//                    return;
+//                }
 
                 AdMob.prepareInterstitial({
                     adId: admobid.interstitial,
@@ -70,12 +70,12 @@
             }
 
             function initApp() {
-                IAP.load();
-
-                if (IAP.adFree) {
-                    IAP.removeAd();
-                    return;
-                }
+//                IAP.load();
+//
+//                if (IAP.adFree) {
+//                    IAP.removeAd();
+//                    return;
+//                }
 
                 if (AdMob) {
                     bannerAd();
@@ -107,12 +107,12 @@
             </div>
             <!-- ROTATE INSTRUCTION END-->
 
-            <div id="iap">
-                <a id="iap-button" onclick="IAP.buy(PRODUCT_ID_ADFREE)">
-                    <img src="css/remove_ads.png" width="48" height="48"/>
-                </a>
-                <br/><br/>
-            </div>
+            <!--<div id="iap">-->
+                <!--<a id="iap-button" onclick="IAP.buy(PRODUCT_ID_ADFREE)">-->
+                    <!--<img src="css/remove_ads.png" width="48" height="48"/>-->
+                <!--</a>-->
+                <!--<br/><br/>-->
+            <!--</div>-->
 
             <!-- CANVAS START-->
             <div id="canvasHolder">
@@ -138,6 +138,6 @@
         <script src="js/main.js"></script>
         <script src="js/loader.js"></script>
         <script src="js/init.js"></script>
-        <script src="js/IAP.js"></script>
+        <!--<script src="js/IAP.js"></script>-->
     </body>
 </html>
