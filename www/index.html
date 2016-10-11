@@ -73,7 +73,7 @@
                 IAP.load();
 
                 if (IAP.adFree) {
-                    document.getElementById("iap").style.display = 'block';
+                    IAP.removeAd();
                     return;
                 }
 
@@ -108,9 +108,9 @@
             <!-- ROTATE INSTRUCTION END-->
 
             <div id="iap">
-                <button onclick="IAP.buy(PRODUCT_ID_ADFREE)">
+                <a id="iap-button" onclick="IAP.buy(PRODUCT_ID_ADFREE)">
                     <img src="css/remove_ads.png" width="32" height="32"/>
-                </button>
+                </a>
                 <br/><br/>
             </div>
 
