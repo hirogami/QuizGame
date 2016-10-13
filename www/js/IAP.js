@@ -46,7 +46,7 @@ IAP.onPurchase = function (transactionId, productId, receipt) {
     IAP.adFree = true;
     //Code to remove ads for the user
     localStorage.setItem(PRODUCT_ID_ADFREE, true);
-    IAP.removeAd();
+    IAP.removePurchaseButtons();
   }
 };
 
@@ -55,7 +55,7 @@ IAP.onRestore = function (transactionId, productId, transactionReceipt) {
     //Code to remove ads for the user
     IAP.adFree = true;
     localStorage.setItem(PRODUCT_ID_ADFREE, true);
-    IAP.removeAd();
+    IAP.removePurchaseButtons();
   }
 };
 
@@ -72,9 +72,12 @@ IAP.restore = function(){
   storekit.restore();
 };
 
-IAP.removeAd = function () {
+IAP.removePurchaseButtons = function () {
   var parent = document.getElementById("iap");
-  var child = document.getElementById("iap-button");
 
+  var child = document.getElementById("iap-button");
+  parent.removeChild(child);
+
+  child = document.getElementById("restore-button");
   parent.removeChild(child);
 }

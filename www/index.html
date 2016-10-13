@@ -73,7 +73,7 @@
                 IAP.load();
 
                 if (IAP.adFree) {
-                    IAP.removeAd();
+                    IAP.removePurchaseButtons();
                     return;
                 }
 
@@ -114,7 +114,7 @@
                 </a>
                 <br/>
                 <a id="restore-button" onclick="IAP.restore()">
-                    <img src="css/btn_restore.png" width="48" height="48"/>
+                    <img src="css/btn_restore.png" width="48"/>
                     <p style="color: #ffffff;font-size: smaller">Restore<br/>purchase</p>
                 </a>
             </div>
