@@ -1,7 +1,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:gap="http://phonegap.com/ns/1.0"
         id="com.dteam.halloween"
-        version="1.0.3">
+        version="1.0.4">
 
   <name>Crazy Halloween Trivia</name>
   <description>A quiz game based on Halloween 2016.</description>

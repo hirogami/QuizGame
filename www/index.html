@@ -109,10 +109,17 @@
 
             <div id="iap">
                 <a id="iap-button" onclick="IAP.buy(PRODUCT_ID_ADFREE)">
-                    <img src="css/remove_ads.png" width="48" height="48"/>
+                    <img src="css/remove_ads.png" width="48"/>
+                    <p style="color: #ffffff;font-size: smaller">Purchase</p>
                 </a>
-                <br/><br/>
+                <br/>
+                <a id="restore-button" onclick="IAP.restore()">
+                    <img src="css/btn_restore.png" width="48" height="48"/>
+                    <p style="color: #ffffff;font-size: smaller">Restore<br/>purchase</p>
+                </a>
             </div>
+
+
 
             <!-- CANVAS START-->
             <div id="canvasHolder">
