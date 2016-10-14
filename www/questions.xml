@@ -240,17 +240,15 @@
 
 	<item>
 		<category>Set 2</category>
-		<question type='text'><![CDATA[What item was often baked into
-		Halloween Barmbrack & when found would indicate that
-		 the finder would have good fortune
-		 in the coming year?]]>
+		<question type='text'><![CDATA["If it bleeds, we can kill it"
+		is the tagline for which monster movie?]]>
 		</question>
-		<answers answerLayout='4type3' correctAnswer='2'>
-			<answer><![CDATA[A button]]></answer>
-			<answer><![CDATA[A coin]]></answer>
-			<answer><![CDATA[A bead]]></answer>
-			<answer><![CDATA[A bean]]></answer>
-		</answers>
+		<answers answerLayout='4type3' correctAnswer='4'>
+			<answer><![CDATA[Alien]]></answer>
+			<answer><![CDATA[Deep Rising]]></answer>
+			<answer><![CDATA[Halloween]]></answer>
+            <answer><![CDATA[Predator]]></answer>
+        </answers>
 	</item>
 
 	<item>
@@ -536,20 +534,21 @@
 
     <item>
         <category>Set 5</category>
-        <question type='text'><![CDATA[Who is often regarded as being one
-        of the last witches to be executed in England?]]></question>
-        <answers answerLayout='4type3' correctAnswer='2'>
-            <answer><![CDATA[Margret Scott]]></answer>
-            <answer><![CDATA[Temperance Lloyd]]></answer>
-            <answer><![CDATA[Rebecca Nurse]]></answer>
-            <answer><![CDATA[ Alice Parker]]></answer>
+        <question type='text'><![CDATA[What is the name of the scary young girl
+        in the movie, The Ring?]]></question>
+        <answers answerLayout='4type3' correctAnswer='1'>
+            <answer><![CDATA[Samara]]></answer>
+            <answer><![CDATA[Tamara]]></answer>
+            <answer><![CDATA[Sonya]]></answer>
+            <answer><![CDATA[Tanya]]></answer>
         </answers>
     </item>
 
     <item>
         <category>Set 5</category>
-        <question type='text'><![CDATA[Entjen Gillis was a women accused of
-        killing newborn babies and fetuses. Where did she live? ]]></question>
+        <question type='text'><![CDATA[Entjen Gillis was a women
+        accused of killing newborn babies and fetuses.
+        Where did she live? ]]></question>
         <answers answerLayout='4type3' correctAnswer='3'>
             <answer><![CDATA[America]]></answer>
             <answer><![CDATA[Italy]]></answer>
@@ -572,24 +571,25 @@
 
     <item>
         <category>Set 5</category>
-        <question type='text'><![CDATA[In which film does the devil
-        go by the name of John Milton?]]></question>
-        <answers answerLayout='4type3' correctAnswer='4'>
-            <answer><![CDATA[The Ninth Gate]]></answer>
-            <answer><![CDATA[Children of the Corn]]></answer>
-            <answer><![CDATA[The Beast]]></answer>
-            <answer><![CDATA[ The Devil's Advocate]]></answer>
+        <question type='text'><![CDATA[Which monster is pictured
+        on the flag of Sicily?]]></question>
+        <answers answerLayout='4type3' correctAnswer='1'>
+            <answer><![CDATA[Medusa]]></answer>
+            <answer><![CDATA[Griffin]]></answer>
+            <answer><![CDATA[Minotaur]]></answer>
+            <answer><![CDATA[Sphinx]]></answer>
         </answers>
     </item>
 
     <item>
         <category>Set 5</category>
-        <question type='text'><![CDATA["Somewhere between science and
-        superstition,there is another world. The world of darkness."
+        <question type='text'><![CDATA["Somewhere between science
+        and superstition,there is another world.
+        The world of darkness."
         A promotional tagline from which movie? ]]></question>
         <answers answerLayout='4type3' correctAnswer='1'>
             <answer><![CDATA[The Exorcist]]></answer>
-            <answer><![CDATA[Rosemary’s Baby]]></answer>
+            <answer><![CDATA[Ring]]></answer>
             <answer><![CDATA[The Omen]]></answer>
             <answer><![CDATA[It]]></answer>
         </answers>
@@ -598,8 +598,9 @@
     <item>
         <category>Set 5</category>
         <question type='text'><![CDATA[According to the bible,
-        the Devil appeared in the form of what animal
-        to tempt Eve in the Garden of Eden? ]]></question>
+        the Devil appeared in the form of
+        what animal to tempt Eve
+        in the Garden of Eden? ]]></question>
         <answers answerLayout='4type3' correctAnswer='3'>
             <answer><![CDATA[Tiger]]></answer>
             <answer><![CDATA[Toad]]></answer>
@@ -611,8 +612,8 @@
     <item>
         <category>Set 5</category>
         <question type='text'><![CDATA[What genre of music was
-        often called the "Devil's music" by its critics
-        in the 1920s? ]]></question>
+        often called the "Devil's music"
+        by its critics in the 1920s? ]]></question>
         <answers answerLayout='4type3' correctAnswer='4'>
             <answer><![CDATA[Country]]></answer>
             <answer><![CDATA[Rock]]></answer>
@@ -636,11 +637,11 @@
         <category>Set 5</category>
         <question type='text'><![CDATA[Which of these events might change
         a person into a vampire? ]]></question>
-        <answers answerLayout='4type1' correctAnswer='3'>
-            <answer><![CDATA[Eating a sheep that was killed by a wolf]]></answer>
-            <answer><![CDATA[All of the above]]></answer>
-            <answer><![CDATA[A cat jumping on the body before burial]]></answer>
+        <answers answerLayout='4type1' correctAnswer='2'>
+            <answer><![CDATA[Eating a sheep killed by a wolf]]></answer>
+            <answer><![CDATA[Cat jumping on the body before burial]]></answer>
             <answer><![CDATA[A seventh son]]></answer>
+            <answer><![CDATA[Breaking a mirror]]></answer>
         </answers>
     </item>
 
