@@ -658,4 +658,331 @@
         </answers>
     </item>
 
+    <!-- Set 6-->
+
+    <item>
+        <category>Set 6</category>
+        <question type='text'><![CDATA[Whose ghost has been seen swimming
+         in Ocracoke Island Cove?]]></question>
+        <answers answerLayout='4type1' correctAnswer='1'>
+            <answer><![CDATA[Edward Teach]]></answer>
+            <answer><![CDATA[Napoleon Bonaparte]]></answer>
+            <answer><![CDATA[Kublai Khan]]></answer>
+            <answer><![CDATA[Marie Antoinette]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 6</category>
+        <question type='text'><![CDATA[Which country is affected
+        by the Curse of Turan?]]></question>
+        <answers answerLayout='4type3' correctAnswer='2'>
+            <answer><![CDATA[Denmark]]></answer>
+            <answer><![CDATA[Hungary]]></answer>
+            <answer><![CDATA[Germany]]></answer>
+            <answer><![CDATA[Spain]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 6</category>
+        <question type='text'><![CDATA[Where does the lake monster Selma live?]]></question>
+        <answers answerLayout='4type3' correctAnswer='4'>
+            <answer><![CDATA[Brazil]]></answer>
+            <answer><![CDATA[Kenya]]></answer>
+            <answer><![CDATA[Germany]]></answer>
+            <answer><![CDATA[Norway]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 6</category>
+        <question type='text'><![CDATA[Ogopogo is a lake monster.
+        Which country is home to this creature?]]></question>
+        <answers answerLayout='4type3' correctAnswer='3'>
+            <answer><![CDATA[Spain]]></answer>
+            <answer><![CDATA[Hungary]]></answer>
+            <answer><![CDATA[Canada]]></answer>
+            <answer><![CDATA[Brazil]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 6</category>
+        <question type='text'><![CDATA[Ogopogo is a lake monster.
+        Which country is home to this creature?]]></question>
+        <answers answerLayout='4type1' correctAnswer='3'>
+            <answer><![CDATA[Spain]]></answer>
+            <answer><![CDATA[Hungary]]></answer>
+            <answer><![CDATA[Canada]]></answer>
+            <answer><![CDATA[Brazil]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 6</category>
+        <question type='text'><![CDATA['Lamb's Wool' a popular Halloween drink
+         in the 18th Cent
+         was made of milk and _______]]></question>
+        <answers answerLayout='4type1' correctAnswer='2'>
+            <answer><![CDATA[Chestnuts]]></answer>
+            <answer><![CDATA[Apples]]></answer>
+            <answer><![CDATA[Grapes]]></answer>
+            <answer><![CDATA[Potatoes]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 6</category>
+        <question type='text'><![CDATA[What does the word 'Hallow' mean?]]></question>
+        <answers answerLayout='4type3' correctAnswer='4'>
+            <answer><![CDATA[Spook]]></answer>
+            <answer><![CDATA[Spirit]]></answer>
+            <answer><![CDATA[Sin]]></answer>
+            <answer><![CDATA[Saint]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 6</category>
+        <question type='text'><![CDATA[What is a group of witches called?]]></question>
+        <answers answerLayout='4type3' correctAnswer='4'>
+            <answer><![CDATA[Convoy]]></answer>
+            <answer><![CDATA[Commune]]></answer>
+            <answer><![CDATA[Cauldron]]></answer>
+            <answer><![CDATA[Coven]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 6</category>
+        <question type='text'><![CDATA[What is a male witch called?]]></question>
+        <answers answerLayout='4type3' correctAnswer='1'>
+            <answer><![CDATA[Warlock]]></answer>
+            <answer><![CDATA[Witchman]]></answer>
+            <answer><![CDATA[Halloweenie]]></answer>
+            <answer><![CDATA[convoy]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 6</category>
+        <question type='text'><![CDATA[What does the English word "hallow" mean?]]></question>
+        <answers answerLayout='4type3' correctAnswer='3'>
+            <answer><![CDATA[Sin]]></answer>
+            <answer><![CDATA[Spirit]]></answer>
+            <answer><![CDATA[Saint]]></answer>
+            <answer><![CDATA[Spook]]></answer>
+        </answers>
+    </item>
+
+    <!-- Set 7 -->
+
+
+    <item>
+        <category>Set 7</category>
+        <question type='text'><![CDATA[How many "witches" were burned
+        in the Salem Witch Trails?]]></question>
+        <answers answerLayout='4type3' correctAnswer='4'>
+            <answer><![CDATA[13]]></answer>
+            <answer><![CDATA[20]]></answer>
+            <answer><![CDATA[33]]></answer>
+            <answer><![CDATA[0]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 7</category>
+        <question type='text'><![CDATA[The 1978 movie, "Halloween"
+        was made in ____ days]]></question>
+        <answers answerLayout='4type3' correctAnswer='3'>
+            <answer><![CDATA[13]]></answer>
+            <answer><![CDATA[20]]></answer>
+            <answer><![CDATA[21]]></answer>
+            <answer><![CDATA[60]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 7</category>
+        <question type='text'><![CDATA[When was
+        Halloween believed to have started?]]></question>
+        <answers answerLayout='4type1' correctAnswer='3'>
+            <answer><![CDATA[4000 B.C.]]></answer>
+            <answer><![CDATA[2000 B.C.]]></answer>
+            <answer><![CDATA[4000 A.D.]]></answer>
+            <answer><![CDATA[3000 B.C.]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 7</category>
+        <question type='text'><![CDATA[What bird is usually
+        linked to Halloween?]]></question>
+        <answers answerLayout='4type3' correctAnswer='2'>
+            <answer><![CDATA[Crow]]></answer>
+            <answer><![CDATA[Owl]]></answer>
+            <answer><![CDATA[Pigeon]]></answer>
+            <answer><![CDATA[Blackbird]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 7</category>
+        <question type='text'><![CDATA[A woman commits suicide
+        in the movie "Devil" by doing what?]]></question>
+        <answers answerLayout='4type1' correctAnswer='4'>
+            <answer><![CDATA[Shooting herself]]></answer>
+            <answer><![CDATA[Overdosing sleeping pills]]></answer>
+            <answer><![CDATA[Electrocuting herself]]></answer>
+            <answer><![CDATA[Jumping from skyscaper]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 7</category>
+        <question type='text'><![CDATA[How is the old woman killed
+        in the elevator in the movie "Devil"?]]></question>
+        <answers answerLayout='4type1' correctAnswer='2'>
+            <answer><![CDATA[Stabbed with glass]]></answer>
+            <answer><![CDATA[Hung from ceiling]]></answer>
+            <answer><![CDATA[Electrified]]></answer>
+            <answer><![CDATA[Chocked to death]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 7</category>
+        <question type='text'><![CDATA[The tradition of
+        bobbing for apples came from ?]]></question>
+        <answers answerLayout='4type3' correctAnswer='1'>
+            <answer><![CDATA[Rome]]></answer>
+            <answer><![CDATA[Greek]]></answer>
+            <answer><![CDATA[Egypt]]></answer>
+            <answer><![CDATA[Poland]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 7</category>
+        <question type='text'><![CDATA[What does the name 'Dracula' mean?]]></question>
+        <answers answerLayout='4type1' correctAnswer='1'>
+            <answer><![CDATA[Son of Dragon]]></answer>
+            <answer><![CDATA[Blood Sucker]]></answer>
+            <answer><![CDATA[Evil Man]]></answer>
+            <answer><![CDATA[Ghost]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 7</category>
+        <question type='text'><![CDATA[According to superstition, if you stare
+        into a mirror at midnight
+        on Halloween, you will see __]]></question>
+        <answers answerLayout='4type1' correctAnswer='2'>
+            <answer><![CDATA[Your death]]></answer>
+            <answer><![CDATA[Future spouse]]></answer>
+            <answer><![CDATA[dead man]]></answer>
+            <answer><![CDATA[broken glass]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 7</category>
+        <question type='text'><![CDATA[What was used for blood in the movie "Psycho"?]]></question>
+        <answers answerLayout='4type1' correctAnswer='4'>
+            <answer><![CDATA[Catsup]]></answer>
+            <answer><![CDATA[food color]]></answer>
+            <answer><![CDATA[Real Blood]]></answer>
+            <answer><![CDATA[Chocolate Syrup]]></answer>
+        </answers>
+    </item>
+
+    <!--Set 8-->
+
+    <item>
+        <category>Set 8</category>
+        <question type='text'><![CDATA[What Horror movie makes you believe
+         that everyone has died,
+         when they have not?]]></question>
+        <answers answerLayout='4type1' correctAnswer='2'>
+            <answer><![CDATA[Seven]]></answer>
+            <answer><![CDATA[April Fool's Day]]></answer>
+            <answer><![CDATA[Saw]]></answer>
+            <answer><![CDATA[Carrie]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 8</category>
+        <question type='text'><![CDATA[Who was the first to
+        play Dracula in the movies?]]></question>
+        <answers answerLayout='4type1' correctAnswer='1'>
+            <answer><![CDATA[Bela Lugosi]]></answer>
+            <answer><![CDATA[Boris Karloff]]></answer>
+            <answer><![CDATA[Charles Ogle]]></answer>
+            <answer><![CDATA[Brad Pitt]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 8</category>
+        <question type='text'><![CDATA[Which villian stalks children
+         in their dreams?]]></question>
+        <answers answerLayout='4type1' correctAnswer='3'>
+            <answer><![CDATA[Bela Lugosi]]></answer>
+            <answer><![CDATA[Boris Karloff]]></answer>
+            <answer><![CDATA[Freddy Kreuger]]></answer>
+            <answer><![CDATA[Leatherface]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 8</category>
+        <question type='text'><![CDATA[In "The Exorcist", what was
+        the little girl's name?]]></question>
+        <answers answerLayout='4type1' correctAnswer='1'>
+            <answer><![CDATA[Regan]]></answer>
+            <answer><![CDATA[Boris]]></answer>
+            <answer><![CDATA[Albert]]></answer>
+            <answer><![CDATA[Sara]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 8</category>
+        <question type='text'><![CDATA[What flower is prominent
+        in Mexico's Day of the Dead?]]></question>
+        <answers answerLayout='4type1' correctAnswer='3'>
+            <answer><![CDATA[Rose]]></answer>
+            <answer><![CDATA[Calla Lily]]></answer>
+            <answer><![CDATA[Marigold]]></answer>
+            <answer><![CDATA[Oleander]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 8</category>
+        <question type='text'><![CDATA[What Celtic feast day
+        inspired modern Haloween?]]></question>
+        <answers answerLayout='4type1' correctAnswer='3'>
+            <answer><![CDATA[Lughnase]]></answer>
+            <answer><![CDATA[Beltane]]></answer>
+            <answer><![CDATA[Samhain]]></answer>
+            <answer><![CDATA[Imbolc]]></answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Set 8</category>
+        <question type='text'><![CDATA["Slither", released in 2006,
+        was about which of these?]]></question>
+        <answers answerLayout='4type1' correctAnswer='4'>
+            <answer><![CDATA[Lizards]]></answer>
+            <answer><![CDATA[Snakes]]></answer>
+            <answer><![CDATA[Dracula]]></answer>
+            <answer><![CDATA[Parasites]]></answer>
+        </answers>
+    </item>
+
 </questions>
