@@ -985,4 +985,61 @@
         </answers>
     </item>
 
+    <!-- Image Questions -->
+
+    <item>
+    <category>Image Set 1</category>
+    <question type='text'><![CDATA[Which image is different ?]]></question>
+        <answers answerLayout='5type1' correctAnswer='3'>
+        <answer x='200' y='500' type='image'>assets/image_question/dracula_original.png</answer>
+        <answer x='380' y='380' type='image'>assets/image_question/dracula_original.png</answer>
+        <answer x='580' y='520' type='image'>assets/image_question/dracula_diff.png</answer>
+        <answer x='780' y='400' type='image'>assets/image_question/dracula_original.png</answer>
+    </answers>
+    </item>
+
+    <item>
+        <category>Image Set 1</category>
+        <question type='text'><![CDATA[Which image is different ?]]></question>
+        <answers answerLayout='5type1' correctAnswer='2'>
+            <answer x='200' y='500' type='image'>assets/image_question/frank.png</answer>
+            <answer x='450' y='350' type='image'>assets/image_question/frank_diff.png</answer>
+            <answer x='580' y='600' type='image'>assets/image_question/frank.png</answer>
+            <answer x='800' y='350' type='image'>assets/image_question/frank.png</answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Image Set 1</category>
+        <question type='text'><![CDATA[Which image is different ?]]></question>
+        <answers answerLayout='5type1' correctAnswer='1'>
+            <answer x='200' y='500' type='image'>assets/image_question/pumpkin_diff.png</answer>
+            <answer x='450' y='350' type='image'>assets/image_question/pumpkin.png</answer>
+            <answer x='580' y='600' type='image'>assets/image_question/pumpkin.png</answer>
+            <answer x='800' y='350' type='image'>assets/image_question/pumpkin.png</answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Image Set 1</category>
+        <question type='text'><![CDATA[Which image is different ?]]></question>
+        <answers answerLayout='5type1' correctAnswer='1'>
+            <answer x='200' y='500' type='image'>assets/image_question/witch_diff.png</answer>
+            <answer x='450' y='350' type='image'>assets/image_question/witch.png</answer>
+            <answer x='580' y='600' type='image'>assets/image_question/witch.png</answer>
+            <answer x='800' y='350' type='image'>assets/image_question/witch.png</answer>
+        </answers>
+    </item>
+
+    <item>
+        <category>Image Set 1</category>
+        <question type='text'><![CDATA[Which image is different ?]]></question>
+        <answers answerLayout='5type1' correctAnswer='4'>
+            <answer x='200' y='500' type='image'>assets/image_question/wolf_original.png</answer>
+            <answer x='450' y='350' type='image'>assets/image_question/wolf_original.png</answer>
+            <answer x='580' y='600' type='image'>assets/image_question/wolf_original.png</answer>
+            <answer x='800' y='350' type='image'>assets/image_question/wolf_diff.png</answer>
+        </answers>
+    </item>
+
 </questions>
