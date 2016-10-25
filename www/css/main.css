@@ -1,118 +1,224 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-html,button,input,select,textarea {
-color:#222;
+html, button, input, select, textarea {
+    color: #222;
 }
+
 html {
-font-size:1em;
-line-height:1.4;
+    font-size: 1em;
+    line-height: 1.4;
 }
+
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
 ::-moz-selection {
-background: #b3d4fc;
-text-shadow: none;
+    background: #b3d4fc;
+    text-shadow: none;
 }
+
 ::selection {
-background: #b3d4fc;
-text-shadow: none;
+    background: #b3d4fc;
+    text-shadow: none;
 }
+
 /*
  * A better looking default horizontal rule
  */
 hr {
-display: block;
-height: 1px;
-border: 0;
-border-top: 1px solid #ccc;
-margin: 1em 0;
-padding: 0;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
+
 /*
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
-audio,canvas,img,video {
-vertical-align:middle;
+audio, canvas, img, video {
+    vertical-align: middle;
 }
+
 /*
  * Remove default fieldset styles.
  */
 fieldset {
-border:0;
-margin:0;
-padding:0;
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
+
 /*
  * Allow only vertical resizing of textareas.
  */
 textarea {
-resize:vertical;
+    resize: vertical;
 }
 
 /* ==========================================================================
    Main styles
    ========================================================================== */
-   
+
 @font-face {
-	font-family: 'csnpwdt';
+    font-family: 'csnpwdt';
     /*src: url('fonts/bariol_regular-webfont.eot');*/
     src: url('fonts/csnpwdt.ttf') format('truetype');
     /*src: url('fonts/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),*/
-         /*url('fonts/bariol_regular-webfont.woff2') format('woff2'),*/
-         /*url('fonts/bariol_regular-webfont.woff') format('woff'),*/
-         /*url('fonts/bariol_regular-webfont.ttf') format('truetype'),*/
-         /*url('fonts/bariol_regular-webfont.svg#bariol_regularregular') format('svg');*/
+    /*url('fonts/bariol_regular-webfont.woff2') format('woff2'),*/
+    /*url('fonts/bariol_regular-webfont.woff') format('woff'),*/
+    /*url('fonts/bariol_regular-webfont.ttf') format('truetype'),*/
+    /*url('fonts/bariol_regular-webfont.svg#bariol_regularregular') format('svg');*/
     font-weight: normal;
     font-style: normal;
 }
 
 /*html{-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-user-select: none;-webkit-touch-callout:none; background: #000000;}*/
-html{-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-user-select: none;-webkit-touch-callout:none; background-image: url("background_trivia.jpg");background-size:cover}
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url("background_trivia.jpg");
+    background-size: cover
+}
 
 /*-- Percent Loader -- */
-#mainLoader{position:absolute;z-index:5; display:none; font-size:50px; line-height:50px; color:#FFF; text-align:center; width:100%; font-family:'bariol_regularregular';}
+#mainLoader {
+    position: absolute;
+    z-index: 5;
+    display: none;
+    font-size: 50px;
+    line-height: 50px;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    font-family: 'bariol_regularregular';
+}
 
 /*-- Content Wrapper -- */
-#mainHolder{position:absolute; width:100%;height:100%;}
+#mainHolder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 
 /*-- Browser Not Support -- */
-#notSupportHolder{ width:90%; margin:5% auto; position:relative; color:#FFF; text-align:center; font-size:25px; font-family:'bariol_regularregular'; display:none;}
-.notSupport{margin-top:200px;}
+#notSupportHolder {
+    width: 90%;
+    margin: 5% auto;
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'bariol_regularregular';
+    display: none;
+}
+
+.notSupport {
+    margin-top: 200px;
+}
 
 /*-- Mobile Rotate Instruction -- */
-#rotateHolder{position:absolute;width:100%;height:100%;background-color:#0A1529;z-index:1000; display:none;}
-.mobileRotate{width:200px;height:auto;position:absolute;text-align:center;}
-.rotateDesc{color:#fff; font-size:15px; line-height:15px; font-family:'bariol_regularregular';}
+#rotateHolder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0A1529;
+    z-index: 1000;
+    display: none;
+}
+
+.mobileRotate {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    text-align: center;
+}
+
+.rotateDesc {
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: 'bariol_regularregular';
+}
 
 /*-- Canvas Wrapper -- */
-#canvasHolder{ display:none; width:100%; max-width:1024px; height:100%; margin:auto; position:relative;}
-#gameCanvas, #box2dCanvas{ position:absolute;}
+#canvasHolder {
+    display: none;
+    width: 100%;
+    max-width: 1024px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+#gameCanvas, #box2dCanvas {
+    position: absolute;
+}
 
 /*-- Form Wrapper -- */
-#editWrapper{ display:none;}
-#floatForm{ position:fixed; left:0; top:0; z-index:100; background: #000000; padding:15px; color:#FFF; width:280px; border:#fff solid 2px;}
-#floatForm{ font-size:14px;}
-#floatForm #questionWrapper, #floatForm #answersWrapper{ background: #000000; padding:10px;}
-#floatForm input.button, #floatForm select.half, #floatForm label{ width:49%;}
-#floatForm .formRow input, #floatForm .formRow select{ float:right; width:48%;}
-#floatForm .formRow label{ float:left; width:48%;}
+#editWrapper {
+    display: none;
+}
 
-#floatForm input{ width:100%;}
-#floatForm textarea{ float:left; width:100%;}
-#floatForm select, #floatForm option{ width:100%;}
+#floatForm {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background: #000000;
+    padding: 15px;
+    color: #FFF;
+    width: 280px;
+    border: #fff solid 2px;
+}
+
+#floatForm {
+    font-size: 14px;
+}
+
+#floatForm #questionWrapper, #floatForm #answersWrapper {
+    background: #000000;
+    padding: 10px;
+}
+
+#floatForm input.button, #floatForm select.half, #floatForm label {
+    width: 49%;
+}
+
+#floatForm .formRow input, #floatForm .formRow select {
+    float: right;
+    width: 48%;
+}
+
+#floatForm .formRow label {
+    float: left;
+    width: 48%;
+}
+
+#floatForm input {
+    width: 100%;
+}
+
+#floatForm textarea {
+    float: left;
+    width: 100%;
+}
+
+#floatForm select, #floatForm option {
+    width: 100%;
+}
 
 /*@-webkit-viewport{width:device-width}*/
 /*@-moz-viewport{width:device-width}*/
 /*@-ms-viewport{width:device-width}*/
 /*@-o-viewport{width:device-width}*/
 /*@viewport{width:device-width}*/
-
-
 
 /* ==========================================================================
    Helper classes
@@ -121,60 +227,60 @@ html{-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-user-select: none;-webki
  * Image replacement
  */
 .ir {
-background-color: transparent;
-border: 0;
-overflow: hidden;
-/* IE 6/7 fallback */
-*text-indent: -9999px;
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
 }
 
 .ir:before {
-content: "";
-display: block;
-width: 0;
-height: 150%;
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
 }
 
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
 .hidden {
-display: none !important;
-visibility: hidden;
+    display: none !important;
+    visibility: hidden;
 }
 
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
 .visuallyhidden {
-border: 0;
-clip: rect(0 0 0 0);
-height: 1px;
-margin: -1px;
-overflow: hidden;
-padding: 0;
-position: absolute;
-width: 1px;
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
 
 /*
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {
-clip: auto;
-height: auto;
-margin: 0;
-overflow: visible;
-position: static;
-width: auto;
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
 }
 
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
 .invisible {
-visibility: hidden;
+    visibility: hidden;
 }
 
 /*
@@ -188,21 +294,21 @@ visibility: hidden;
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-.clearfix:before,.clearfix:after{
-content: " "; /* 1 */
-display: table; /* 2 */
+.clearfix:before, .clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
 }
 
-.clearfix:after{
-clear: both;
+.clearfix:after {
+    clear: both;
 }
 
 /*
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-.clearfix{
-*zoom: 1;
+.clearfix {
+    *zoom: 1;
 }
 
 /* ==========================================================================
@@ -216,9 +322,9 @@ clear: both;
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -226,66 +332,74 @@ clear: both;
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
-@media print{
-* {
-background:transparent!important;
-color:#000!important;
-box-shadow:none!important;
-text-shadow:none!important;
-}
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
 
-a,a:visited {
-text-decoration:underline;
-}
+    a, a:visited {
+        text-decoration: underline;
+    }
 
-a[href]:after {
-content:" (" attr(href) ")";
-}
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
 
-abbr[title]:after {
-content:" (" attr(title) ")";
-}
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
 
-.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after {
-content:"";
-}
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+        content: "";
+    }
 
-pre,blockquote {
-border:1px solid #999;
-page-break-inside:avoid;
-}
+    pre, blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
 
-thead {
-display:table-header-group;
-}
+    thead {
+        display: table-header-group;
+    }
 
-tr,img {
-page-break-inside:avoid;
-}
+    tr, img {
+        page-break-inside: avoid;
+    }
 
-img {
-max-width:100%!important;
-}
+    img {
+        max-width: 100% !important;
+    }
 
-@page {
-margin:.5cm;
-}
+    @page {
+        margin: .5cm;
+    }
 
-p,h2,h3 {
-orphans:3;
-widows:3;
-}
+    p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+    }
 
-h2,h3 {
-page-break-after:avoid;
-}
+    h2, h3 {
+        page-break-after: avoid;
+    }
 }
 
 #iap {
-    float: right; margin-top: 20px; margin-right: 5px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 5px;
 }
 
-#iap p{
+#iap p {
     margin: 0;
     text-align: center;
+}
+
+#dteam {
+    float: left;
+    margin-top: 90px;
+    margin-left: 5px;
 }
