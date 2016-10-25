@@ -108,9 +108,14 @@
             <!-- ROTATE INSTRUCTION END-->
 
             <div id="iap">
+                <a id="question-button" onclick="IAP.buy(PRODUCT_ID_QUESTIONS)">
+                    <img src="css/new_question.png" width="48"/>
+                    <p style="color: #ffffff;font-size: smaller">Extra<br/>Questions</p>
+                </a>
+                <br/>
                 <a id="iap-button" onclick="IAP.buy(PRODUCT_ID_ADFREE)">
                     <img src="css/remove_ads.png" width="48"/>
-                    <p style="color: #ffffff;font-size: smaller">Purchase</p>
+                    <p style="color: #ffffff;font-size: smaller">Remove<br/>Ads</p>
                 </a>
                 <br/>
                 <a id="restore-button" onclick="IAP.restore()">

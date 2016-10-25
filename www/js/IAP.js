@@ -3,16 +3,22 @@
  */
 
 var PRODUCT_ID_ADFREE = "com.dteam.halloween.adfree";
+var PRODUCT_ID_QUESTIONS = "com.dteam.halloween.questions";
 var localStorage = window.localStorage | {};
 
 IAP = {
   list: [PRODUCT_ID_ADFREE],
-  adFree: false
+  adFree: false,
+  boughtQuestion: false
 };
 
 IAP.load = function () {
   if(localStorage.getItem(PRODUCT_ID_ADFREE) !== null){
     IAP.adFree = localStorage.getItem(PRODUCT_ID_ADFREE);
+  }
+
+  if(localStorage.getItem(PRODUCT_ID_QUESTIONS) !== null){
+    IAP.boughtQuestion = localStorage.getItem(PRODUCT_ID_QUESTIONS);
   }
 
   // Check availability of the storekit plugin
@@ -48,6 +54,12 @@ IAP.onPurchase = function (transactionId, productId, receipt) {
     localStorage.setItem(PRODUCT_ID_ADFREE, true);
     IAP.removePurchaseButtons();
   }
+
+  if(productId === PRODUCT_ID_QUESTIONS){
+    IAP.boughtQuestion = true;
+    localStorage.setItem(PRODUCT_ID_QUESTIONS, true);
+    IAP.removePurchaseButtons();
+  }
 };
 
 IAP.onRestore = function (transactionId, productId, transactionReceipt) {
@@ -55,6 +67,12 @@ IAP.onRestore = function (transactionId, productId, transactionReceipt) {
     //Code to remove ads for the user
     IAP.adFree = true;
     localStorage.setItem(PRODUCT_ID_ADFREE, true);
+    IAP.removePurchaseButtons();
+  }
+
+  if(productId === PRODUCT_ID_QUESTIONS){
+    IAP.boughtQuestion = true;
+    localStorage.setItem(PRODUCT_ID_QUESTIONS, true);
     IAP.removePurchaseButtons();
   }
 };
@@ -75,9 +93,18 @@ IAP.restore = function(){
 IAP.removePurchaseButtons = function () {
   var parent = document.getElementById("iap");
 
-  var child = document.getElementById("iap-button");
-  parent.removeChild(child);
+  if(IAP.adFree) {
+    var child = document.getElementById("iap-button");
+    parent.removeChild(child);
+  }
 
-  child = document.getElementById("restore-button");
-  parent.removeChild(child);
+  if(IAP.boughtQuestion){
+    var child = document.getElementById("question-button");
+    parent.removeChild(child);
+  }
+
+  if(IAP.adFree && IAP.boughtQuestion) {
+    child = document.getElementById("restore-button");
+    parent.removeChild(child);
+  }
 }
