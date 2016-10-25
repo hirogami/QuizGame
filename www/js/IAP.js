@@ -59,6 +59,7 @@ IAP.onPurchase = function (transactionId, productId, receipt) {
     IAP.boughtQuestion = true;
     localStorage.setItem(PRODUCT_ID_QUESTIONS, true);
     IAP.removePurchaseButtons();
+    alert("Please restart the game");
   }
 };
 
@@ -74,6 +75,7 @@ IAP.onRestore = function (transactionId, productId, transactionReceipt) {
     IAP.boughtQuestion = true;
     localStorage.setItem(PRODUCT_ID_QUESTIONS, true);
     IAP.removePurchaseButtons();
+    alert("Please restart the game");
   }
 };
 

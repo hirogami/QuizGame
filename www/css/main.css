@@ -284,3 +284,8 @@ page-break-after:avoid;
 #iap {
     float: right; margin-top: 20px; margin-right: 5px;
 }
+
+#iap p{
+    margin: 0;
+    text-align: center;
+}

@@ -11,14 +11,18 @@ var stageH=768;
  */
 function initMain(){
 	if(!$.browser.mobile || !isTablet){
-		$('#canvasHolder').show();	
+		$('#canvasHolder').show();
 	}
-	
+
 	initGameCanvas(stageW,stageH);
 	buildGameCanvas();
 	buildGameButton();
-	
-	loadXML('questions.xml');
+
+	if(IAP.boughtQuestion) {
+		loadXML('questions_paid.xml');
+	}else{
+		loadXML('questions.xml');
+	}
 	goPage('main');
 	resizeCanvas();
 }
