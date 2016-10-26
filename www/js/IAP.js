@@ -7,7 +7,7 @@ var PRODUCT_ID_QUESTIONS = "com.dteam.halloween.questions";
 var localStorage = window.localStorage | {};
 
 IAP = {
-  list: [PRODUCT_ID_ADFREE],
+  list: [PRODUCT_ID_ADFREE,PRODUCT_ID_QUESTIONS],
   adFree: false,
   boughtQuestion: false
 };
